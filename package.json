@@ -16,7 +16,9 @@
   },
   "scripts": {
     "start": "node index",
-    "dev": "nodemon index"
+    "dev": "nodemon index",
+    "data:import": "node seeder",
+    "data:destroy":"node seeder -d"
   },
   "author": "",
   "license": "ISC"
