@@ -1,7 +1,7 @@
 ## PANDA STORE -  e-commerce store API
 
 ### DESCRIPTION
-> This is a simple Nodejs web tool for use in a fictional E-commerce platform that allows user to buy product on the website and also pay
+> This is a simple Nodejs web tool for use in a fictional E-commerce platform that allows user to buy product on the a website and also pay using stripe
 
 ### TOOLS
 * Server - NodeJS
