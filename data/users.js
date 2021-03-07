@@ -12,7 +12,7 @@ const users = [
     name: 'John Doe',
     email: 'john@example.com',
     password: bcrypt.hashSync('123455', 10),
-  },
+  }, 
 
   {
     name: 'Lex Luthor',
