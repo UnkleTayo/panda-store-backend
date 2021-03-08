@@ -1,13 +1,11 @@
 import asyncHandler from 'express-async-handler';
 import Product from '../Model/productModel.js';
 
-
       /*
       @desc Fetch all products
       @route GET /api/v1/products
       @access Public
       */ 
-
 const getProducts = asyncHandler(async (req, res) => {
   const products = await Product.find({});
 
