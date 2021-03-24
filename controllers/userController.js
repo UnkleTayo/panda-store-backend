@@ -99,7 +99,6 @@ const registerUser = asyncHandler(async (req, res) => {
 @access private
 */  
 const updateUserProfile  = asyncHandler(async (req, res) => { 
-
   const user = await User.findById(req.user._id)
    
     if (user){
@@ -108,7 +107,7 @@ const updateUserProfile  = asyncHandler(async (req, res) => {
       if (req.body.password){
         user.password = req.body.password
       }
-      const updatedUser = await res.save()
+      const updatedUser = await user.save()
       res.json({
         _id: updatedUser._id, 
         name: updatedUser.name,
